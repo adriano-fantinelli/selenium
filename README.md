@@ -1,8 +1,8 @@
 # :man_astronaut:	 Selenium + Java :man_astronaut:	
 
-Test automation project using Cypress for Front-end Web and Back-end tests. We will use the http://automationpractice.com/index.php?controller=authentication&back=my-account environment to perform the tests on the Front-end and the API http://fakerestapi.azurewebsites.net/index.html to the tests on the Back-end. You can switch to any other environment that you want.
+Test automation project using Selenium and WebDriverManager in Java for Front-end aplications. We will use the http://automationpractice.com/index.php environment to perform the tests. You can switch to any other environment that you want.
 
-## :point_right: Technologies :point_left:	
+## 💻 Technologies 💻	
 
 - Node.js
 - JavaScript
