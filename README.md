@@ -4,23 +4,17 @@ Test automation project using Selenium and WebDriverManager in Java for Front-en
 
 ## 💻 Technologies 💻	
 
-- Node.js
-- JavaScript
-- Cypress
+- Selenium
+- Java
+- WebDriverManager
+- Maven
+- NodeJS
 
 ## :man_technologist:	Setting up the environment :woman_technologist:	
 
-1. Install Node.js.
+1. It is necessary to install [Java](https://www.java.com/en/download/manual.jsp), [Intellij](https://www.jetbrains.com/pt-br/idea/download/#section=windows), [Maven](https://maven.apache.org/download.cgi) and [NodeJS](https://nodejs.org/en/)
 
-2. It is necessary to install Cypress, type on the command prompt:
-```
-npm install cypress
-```
-3. To create the file package.json, type:
-```
-npm init
-```
-4. To open the execution of the tests use: 
-```
-npx cypress open
-```
+2. Then, let's create a maven project on Intellij and clone this repository. The dependencies are going to be installed
+
+3. To run the project is just click on the green arrow on the header.
+
