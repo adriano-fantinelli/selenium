@@ -9,18 +9,10 @@ public class HomePage extends BasePage {
 
     @FindBy(className = "login")
     public WebElement login;
-    public String TITLETShirt = "T-SHIRTS";
 
-    public WebElement tShirt() {
-        return driver.findElement(By.linkText(TITLETShirt));
-    }
-
-    public void clickTShirt() {
-        tShirt().click();
-    }
 
     public void clickBtnLogin() {
-        driver.findElement(By.className("login")).click();
+        login.click();
     }
 
 }

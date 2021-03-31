@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test1"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="13,417">
+  <properties />
+  
+  
+            <testcase name="testLoginWithoutSuccessBlankPassword" time="1,542" classname="tests.LoginTest" />
+                <testcase name="testLoginSuccessfully" time="7,205" classname="tests.LoginTest" />
+                <testcase name="testLoginWithoutSuccessBlankEmail" time="1,492" classname="tests.LoginTest" />
+                <testcase name="testLoginWithoutSuccessIncorrectEmail" time="1,548" classname="tests.LoginTest" />
+                <testcase name="testLoginWithoutSuccessIncorrectPassword" time="1,630" classname="tests.LoginTest" />
+      
+</testsuite>
