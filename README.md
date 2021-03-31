@@ -10,7 +10,7 @@ Test automation project using Selenium and WebDriverManager in Java for Front-en
 - Maven
 - NodeJS
 
-## :man_technologist:	Setting up the environment :woman_technologist:	
+## :man_technologist:	Setting up the environment and running :woman_technologist:	
 
 1. It is necessary to install [Java](https://www.java.com/en/download/manual.jsp), [Intellij](https://www.jetbrains.com/pt-br/idea/download/#section=windows), [Maven](https://maven.apache.org/download.cgi) and [NodeJS](https://nodejs.org/en/)
 
