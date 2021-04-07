@@ -1,8 +1,0 @@
-pageObjects\LoginPage.class
-utils\Browser.class
-pageObjects\BasePage.class
-utils\Utils.class
-pageObjects\HomePage.class
-pageObjects\MyAccountPage.class
-tests\BaseTest.class
-tests\LoginTest.class

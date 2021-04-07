@@ -1,5 +1,6 @@
 package pageObjects;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -17,6 +18,14 @@ public class MyAccountPage extends BasePage {
 
     public void clickLogout() {
         logout.click();
+    }
+
+    public WebElement tShirts() {
+        return driver.findElement(By.linkText("T-SHIRTS"));
+    }
+
+    public void clickTShirts() {
+        tShirts().click();
     }
 
 }
