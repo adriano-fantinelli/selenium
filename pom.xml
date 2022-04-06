@@ -8,39 +8,66 @@
     <artifactId>SeleniumJavaAutomation</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <build>
+        <sourceDirectory>src</sourceDirectory>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>${maven-surefire-plugin.version}</version>
+                <configuration>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>testng.xml</suiteXmlFile>
+                    </suiteXmlFiles>
+                </configuration>
+            </plugin>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
     <properties>
+        <java.version>17</java.version>
+        <maven-compiler-plugin.version>3.10.1</maven-compiler-plugin.version>
+        <maven-surefire-plugin.version>2.14.1</maven-surefire-plugin.version>
         <aspectj.version>1.8.10</aspectj.version>
         <javafaker.version>0.17.2</javafaker.version>
         <junit.version>4.12</junit.version>
-        <testng.version>6.14.3</testng.version>
+        <testng.version>6.8</testng.version>
         <selenium-java.version>3.141.59</selenium-java.version>
-        <lombok.version>1.18.6</lombok.version>
+        <lombok.version>1.18.20</lombok.version>
         <allure-testng.version>2.10.0</allure-testng.version>
+        <webdrivermanager.version>4.3.1</webdrivermanager.version>
+        <allure-maven.version>2.8</allure-maven.version>
+        <allure-maven-report.version>2.3.1</allure-maven-report.version>
     </properties>
 
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>3.141.59</version>
+            <version>${selenium-java.version}</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
         <dependency>
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
-            <version>4.3.1</version>
+            <version>${webdrivermanager.version}</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.12</version>
+            <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
-            <version>6.14.3</version>
+            <version>${testng.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -59,77 +86,21 @@
             <artifactId>allure-testng</artifactId>
             <version>${allure-testng.version}</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.uncommons/reportng -->
         <dependency>
             <groupId>org.uncommons</groupId>
             <artifactId>reportng</artifactId>
             <version>1.1.4</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/com.google.inject/guice -->
         <dependency>
             <groupId>com.google.inject</groupId>
             <artifactId>guice</artifactId>
             <version>4.2.3</version>
         </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>6.8</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>io.qameta.allure</groupId>
-                <artifactId>allure-maven</artifactId>
-                <version>2.8</version>
-                <configuration>
-                    <reportVersion>2.3.1</reportVersion>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.6.1</version>
-                <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.20</version>
-                <configuration>
-                    <argLine>
-                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
-                    </argLine>
-                    <suiteXmlFiles>
-                        <suiteXmlFile>testng.xml</suiteXmlFile>
-                    </suiteXmlFiles>
-                    <testFailureIgnore>true</testFailureIgnore>
-                </configuration>
-                <dependencies>
-                    <dependency>
-                        <groupId>org.aspectj</groupId>
-                        <artifactId>aspectjweaver</artifactId>
-                        <version>${aspectj.version}</version>
-                    </dependency>
-                </dependencies>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.5</version>
-                <configuration>
-                    <properties> <property>
-                        <name>usedefaultlisteners</name>
-                        <value>false</value>
-                    </property>
-                        <property>
-                            <name>listener</name>
-                            <value>org.uncommons.reportng.HTMLReporter,
-                                org.uncommons.reportng.JUnitXMLReporter
-                            </value>
-                        </property> </properties>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
 </project>

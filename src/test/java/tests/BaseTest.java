@@ -1,13 +1,8 @@
-package tests;
+package test.java.tests;
 
-import org.junit.After;
-import org.junit.Before;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
-import utils.Browser;
-import utils.Utils;
+import test.java.utils.*;
 
 public class BaseTest {
 

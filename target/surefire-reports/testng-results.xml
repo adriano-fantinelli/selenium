@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-06T00:57:55Z" name="test" finished-at="2022-04-06T00:58:27Z" duration-ms="31515">
+    <groups>
+    </groups>
+    <test started-at="2022-04-06T00:57:55Z" name="Login" finished-at="2022-04-06T00:58:27Z" duration-ms="31515">
+      <class name="test.java.tests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.java.tests.LoginTest@4116aac9]" started-at="2022-04-05T21:57:55Z" name="setup" finished-at="2022-04-05T21:58:01Z" duration-ms="6418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginSuccessfully()[pri:0, instance:test.java.tests.LoginTest@4116aac9]" started-at="2022-04-05T21:58:02Z" name="loginSuccessfully" finished-at="2022-04-05T21:58:07Z" duration-ms="5918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccessfully -->
+        <test-method signature="loginWithInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.tests.LoginTest@4116aac9]" started-at="2022-04-05T21:58:08Z" name="loginWithInvalidData" data-provider="invalidData" finished-at="2022-04-05T21:58:11Z" duration-ms="3508" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalidEmail@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[teste123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Authentication failed.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidData -->
+        <test-method signature="loginWithInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.tests.LoginTest@4116aac9]" started-at="2022-04-05T21:58:11Z" name="loginWithInvalidData" data-provider="invalidData" finished-at="2022-04-05T21:58:14Z" duration-ms="3291" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[novoemailteste@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalidPassword]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Authentication failed.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidData -->
+        <test-method signature="loginWithInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.tests.LoginTest@4116aac9]" started-at="2022-04-05T21:58:14Z" name="loginWithInvalidData" data-provider="invalidData" finished-at="2022-04-05T21:58:18Z" duration-ms="3230" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalidEmail@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalidPassword]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Authentication failed.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidData -->
+        <test-method signature="loginWithInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.tests.LoginTest@4116aac9]" started-at="2022-04-05T21:58:18Z" name="loginWithInvalidData" data-provider="invalidData" finished-at="2022-04-05T21:58:20Z" duration-ms="2116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[novoemailteste@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Password is required.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidData -->
+        <test-method signature="loginWithInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.tests.LoginTest@4116aac9]" started-at="2022-04-05T21:58:20Z" name="loginWithInvalidData" data-provider="invalidData" finished-at="2022-04-05T21:58:23Z" duration-ms="2837" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[teste123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[An email address required.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidData -->
+        <test-method signature="loginWithInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.tests.LoginTest@4116aac9]" started-at="2022-04-05T21:58:23Z" name="loginWithInvalidData" data-provider="invalidData" finished-at="2022-04-05T21:58:26Z" duration-ms="3856" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[An email address required.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.java.tests.LoginTest@4116aac9]" started-at="2022-04-05T21:58:26Z" name="tearDown" finished-at="2022-04-05T21:58:27Z" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.java.tests.LoginTest -->
+    </test> <!-- Login -->
+  </suite> <!-- test -->
+</testng-results>

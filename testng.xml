@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<suite name="test">
+    <listeners>
+        <listener class-name = "test.java.utils.CustomListener" />
+    </listeners>
+
+    <test name="Login" enabled="true">
+       <classes>
+           <class name="test.java.tests.LoginTest"></class>
+       </classes>
+    </test>
+</suite>
