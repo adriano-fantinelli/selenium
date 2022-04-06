@@ -14,6 +14,10 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
           cache: maven
+      - name:  Install Google Chrome
+        run:   |
+              chmod +x ./scripts/InstallChrome.sh
+                          ./scripts/InstallChrome.sh 
       - name: Build with Maven
         run: mvn test
       - name: Generate Allure Report
