@@ -1,0 +1,271 @@
+[ {
+  "uid" : "274e1d058df5c9e1",
+  "name" : "testLoginWithoutSuccessIncorrectEmail",
+  "time" : {
+    "start" : 1649196477425,
+    "stop" : 1649196481550,
+    "duration" : 4125
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e2bee3600348325",
+  "name" : "loginWithInvalidData",
+  "time" : {
+    "start" : 1649206700171,
+    "stop" : 1649206703006,
+    "duration" : 2835
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "38f7d9d87863cb70",
+  "name" : "loginWithInvalidData",
+  "time" : {
+    "start" : 1649199654385,
+    "stop" : 1649199658909,
+    "duration" : 4524
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a2f174aced722a65",
+  "name" : "loginWithInvalidData",
+  "time" : {
+    "start" : 1649206703010,
+    "stop" : 1649206706865,
+    "duration" : 3855
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "53795ddc16063ea8",
+  "name" : "loginWithInvalidData",
+  "time" : {
+    "start" : 1649206691524,
+    "stop" : 1649206694815,
+    "duration" : 3291
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f43eb483e9f5fb27",
+  "name" : "loginWithInvalidData",
+  "time" : {
+    "start" : 1649197840808,
+    "stop" : 1649197849088,
+    "duration" : 8280
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6a71cf81ca2b298c",
+  "name" : "testLoginWithoutSuccessIncorrectPassword",
+  "time" : {
+    "start" : 1649196481558,
+    "stop" : 1649196484014,
+    "duration" : 2456
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4662abd979348af9",
+  "name" : "loginWithInvalidData",
+  "time" : {
+    "start" : 1649200284638,
+    "stop" : 1649200284669,
+    "duration" : 31
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2496029124a393fb",
+  "name" : "loginWithInvalidData",
+  "time" : {
+    "start" : 1649199658923,
+    "stop" : 1649199661788,
+    "duration" : 2865
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d6e7874f6a92c5ca",
+  "name" : "testLoginWithoutSuccessIncorrectEmail",
+  "time" : {
+    "start" : 1649197495741,
+    "stop" : 1649197508055,
+    "duration" : 12314
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "136f2d526bf259f0",
+  "name" : "setup",
+  "time" : {
+    "start" : 1617208786978,
+    "stop" : 1617208786982,
+    "duration" : 4
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "54fe9a0517badb13",
+  "name" : "testLoginWithoutSuccessBlankEmail",
+  "time" : {
+    "start" : 1649196465291,
+    "stop" : 1649196471151,
+    "duration" : 5860
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c735514e75e7c03",
+  "name" : "loginWithInvalidData",
+  "time" : {
+    "start" : 1649200284622,
+    "stop" : 1649200284638,
+    "duration" : 16
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9905a31bb5a37c3",
+  "name" : "loginWithInvalidData",
+  "time" : {
+    "start" : 1649200284530,
+    "stop" : 1649200284552,
+    "duration" : 22
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8896eb7fd46c5f3e",
+  "name" : "loginWithInvalidData",
+  "time" : {
+    "start" : 1649199661792,
+    "stop" : 1649199665048,
+    "duration" : 3256
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4efa85975d3c246b",
+  "name" : "loginWithInvalidData",
+  "time" : {
+    "start" : 1649200284606,
+    "stop" : 1649200284622,
+    "duration" : 16
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2fe2545c2ad1b19a",
+  "name" : "loginSuccessfully",
+  "time" : {
+    "start" : 1649206682056,
+    "stop" : 1649206687923,
+    "duration" : 5867
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "36e560b90cc27afc",
+  "name" : "loginWithInvalidData",
+  "time" : {
+    "start" : 1649200284670,
+    "stop" : 1649200284685,
+    "duration" : 15
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "58f182bc92ee393f",
+  "name" : "loginWithInvalidData",
+  "time" : {
+    "start" : 1649206688002,
+    "stop" : 1649206691508,
+    "duration" : 3506
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "993d144104be0708",
+  "name" : "loginSuccessfully",
+  "time" : {
+    "start" : 1649200284337,
+    "stop" : 1649200284421,
+    "duration" : 84
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "85d5693c3c904f1a",
+  "name" : "loginWithInvalidData",
+  "time" : {
+    "start" : 1649206698052,
+    "stop" : 1649206700167,
+    "duration" : 2115
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fb332deb302aa6b",
+  "name" : "loginWithInvalidData",
+  "time" : {
+    "start" : 1649200284584,
+    "stop" : 1649200284606,
+    "duration" : 22
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a489fbc09c82bb6b",
+  "name" : "testMakeOrderSuccesfully",
+  "time" : {
+    "start" : 1617758113600,
+    "stop" : 1617758122377,
+    "duration" : 8777
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5025efff41f2cfc5",
+  "name" : "loginWithInvalidData",
+  "time" : {
+    "start" : 1649206694819,
+    "stop" : 1649206698049,
+    "duration" : 3230
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2a9722b6ed598058",
+  "name" : "testLoginWithoutSuccessBlankPassword",
+  "time" : {
+    "start" : 1649196471154,
+    "stop" : 1649196477397,
+    "duration" : 6243
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a34da408b010e16",
+  "name" : "testLoginSuccessfully",
+  "time" : {
+    "start" : 1649196447079,
+    "stop" : 1649196465162,
+    "duration" : 18083
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "292b300da21799a8",
+  "name" : "loginWithInvalidData",
+  "time" : {
+    "start" : 1649197860117,
+    "stop" : 1649197868521,
+    "duration" : 8404
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
