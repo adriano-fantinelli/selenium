@@ -1,0 +1,98 @@
+{
+  "uid" : "af2beb242d4edb29",
+  "name" : "testMakeOrderSuccesfully",
+  "fullName" : "tests.OrderTest.testMakeOrderSuccesfully",
+  "historyId" : "94c5d197ad3a5980627ff417b1f03cdb",
+  "time" : {
+    "start" : 1617757543045,
+    "stop" : 1617757599875,
+    "duration" : 56830
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1617757532879,
+      "stop" : 1617757542993,
+      "duration" : 10114
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1617757599955,
+      "stop" : 1617757600558,
+      "duration" : 603
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.OrderTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.OrderTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testMakeOrderSuccesfully"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SeleniumJavaAutomation"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.OrderTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-5LSHH6H"
+  }, {
+    "name" : "thread",
+    "value" : "3148@DESKTOP-5LSHH6H.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Make an order successfully"
+  }, {
+    "name" : "feature",
+    "value" : "Make an order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "af2beb242d4edb29.json",
+  "parameterValues" : [ ]
+}
