@@ -2,18 +2,17 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [test]" verbose="0">
   <listeners>
-    <listener class-name="utils.CustomListener"/>
+    <listener class-name="test.java.utils.CustomListener"/>
   </listeners>
   <test name="Login(failed)">
     <classes>
-      <class name="tests.LoginTest">
+      <class name="test.java.tests.LoginTest">
         <methods>
           <include name="loginSuccessfully"/>
-          <include name="loginWithInvalidData" invocation-numbers="0 1 2 3 4 5"/>
-          <include name="tearDown"/>
+          <include name="loginWithInvalidData"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- tests.LoginTest -->
+      </class> <!-- test.java.tests.LoginTest -->
     </classes>
   </test> <!-- Login(failed) -->
 </suite> <!-- Failed suite [test] -->

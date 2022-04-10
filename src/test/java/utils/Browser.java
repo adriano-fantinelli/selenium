@@ -5,6 +5,7 @@ import java.util.concurrent.TimeUnit;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.UnreachableBrowserException;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -13,12 +14,15 @@ public class Browser {
     public static WebDriver driver;
     public static WebDriverWait wait;
 
-
     public static WebDriver getCurrentDriver() {
         if (driver == null) {
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
             wait = new WebDriverWait(driver, 30);
+            ChromeOptions options = new ChromeOptions();
+            options.addArguments("--no-sandbox");
+            options.addArguments("--disable-dev-shm-usage");
+            options.addArguments("--headless");
             maximizeBrowser();
             setPageLoadTimeout();
         }
