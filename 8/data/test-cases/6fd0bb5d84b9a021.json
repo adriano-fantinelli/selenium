@@ -1,0 +1,177 @@
+{
+  "uid" : "6fd0bb5d84b9a021",
+  "name" : "loginWithInvalidData",
+  "fullName" : "test.java.tests.LoginTest.loginWithInvalidData",
+  "historyId" : "50bad5f5674b002bd6396b3cbd6f5f1f",
+  "time" : {
+    "start" : 1649626274953,
+    "stop" : 1649626277448,
+    "duration" : 2495
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1649626243877
+    },
+    "description" : "",
+    "status" : "unknown",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1649626243877,
+      "stop" : 1649626252851,
+      "duration" : 8974
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1649626277453
+    },
+    "description" : "",
+    "status" : "unknown",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1649626277453,
+      "stop" : 1649626277675,
+      "duration" : 222
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.java.tests.LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "test.java.tests.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginWithInvalidData"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test"
+  }, {
+    "name" : "suite",
+    "value" : "Login"
+  }, {
+    "name" : "subSuite",
+    "value" : "test.java.tests.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-K9FM7UL"
+  }, {
+    "name" : "thread",
+    "value" : "11332@DESKTOP-K9FM7UL.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Login with invalid data"
+  }, {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : ""
+  }, {
+    "name" : "arg1",
+    "value" : ""
+  }, {
+    "name" : "arg2",
+    "value" : "An email address required."
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b0416609c4216235",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1649626220402,
+        "stop" : 1649626220402,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1a18f6e4fac9d389",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1649207541889,
+        "stop" : 1649207541889,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "41c317f8f59d7df9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649206703010,
+        "stop" : 1649206706865,
+        "duration" : 3855
+      }
+    }, {
+      "uid" : "a1eafbb73fae844a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649206226184,
+        "stop" : 1649206230331,
+        "duration" : 4147
+      }
+    }, {
+      "uid" : "4aa81c5212503d1f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649205763159,
+        "stop" : 1649205766747,
+        "duration" : 3588
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6fd0bb5d84b9a021.json",
+  "parameterValues" : [ "", "", "An email address required." ]
+}

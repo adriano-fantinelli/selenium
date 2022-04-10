@@ -1,0 +1,168 @@
+{
+  "uid" : "f6d04bc0069b8f38",
+  "name" : "loginSuccessfully",
+  "fullName" : "test.java.tests.LoginTest.loginSuccessfully",
+  "historyId" : "b0109f73bf6431542801c15ad775c6c8",
+  "time" : {
+    "start" : 1649626252911,
+    "stop" : 1649626259589,
+    "duration" : 6678
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1649626243877
+    },
+    "description" : "",
+    "status" : "unknown",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1649626243877,
+      "stop" : 1649626252851,
+      "duration" : 8974
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1649626277453
+    },
+    "description" : "",
+    "status" : "unknown",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1649626277453,
+      "stop" : 1649626277675,
+      "duration" : 222
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.java.tests.LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "test.java.tests.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginSuccessfully"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test"
+  }, {
+    "name" : "suite",
+    "value" : "Login"
+  }, {
+    "name" : "subSuite",
+    "value" : "test.java.tests.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-K9FM7UL"
+  }, {
+    "name" : "thread",
+    "value" : "11332@DESKTOP-K9FM7UL.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Login Successfully"
+  }, {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5a63919fa6d32bfa",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1649626220357,
+        "stop" : 1649626220365,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "788a7335547b2b83",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1649207541858,
+        "stop" : 1649207541859,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "25395016fea34079",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649206682056,
+        "stop" : 1649206687923,
+        "duration" : 5867
+      }
+    }, {
+      "uid" : "d7ac9d2101ad26b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649206188610,
+        "stop" : 1649206198083,
+        "duration" : 9473
+      }
+    }, {
+      "uid" : "c9dddf4327e0c64b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649205724406,
+        "stop" : 1649205733942,
+        "duration" : 9536
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f6d04bc0069b8f38.json",
+  "parameterValues" : [ ]
+}
