@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="24.48" tests="7" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="42.733" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2021.2.4"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -59,11 +59,11 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="loginSuccessfully" classname="test.java.tests.LoginTest" time="6.728"/>
-  <testcase name="loginWithInvalidData" classname="test.java.tests.LoginTest" time="3.443"/>
-  <testcase name="loginWithInvalidData" classname="test.java.tests.LoginTest" time="2.394"/>
-  <testcase name="loginWithInvalidData" classname="test.java.tests.LoginTest" time="3.096"/>
-  <testcase name="loginWithInvalidData" classname="test.java.tests.LoginTest" time="2.949"/>
-  <testcase name="loginWithInvalidData" classname="test.java.tests.LoginTest" time="3.374"/>
-  <testcase name="loginWithInvalidData" classname="test.java.tests.LoginTest" time="2.496"/>
+  <testcase name="loginSuccessfully" classname="test.java.tests.LoginTest" time="10.638"/>
+  <testcase name="loginWithInvalidData" classname="test.java.tests.LoginTest" time="8.871"/>
+  <testcase name="loginWithInvalidData" classname="test.java.tests.LoginTest" time="4.688"/>
+  <testcase name="loginWithInvalidData" classname="test.java.tests.LoginTest" time="2.409"/>
+  <testcase name="loginWithInvalidData" classname="test.java.tests.LoginTest" time="3.245"/>
+  <testcase name="loginWithInvalidData" classname="test.java.tests.LoginTest" time="4.216"/>
+  <testcase name="loginWithInvalidData" classname="test.java.tests.LoginTest" time="8.666"/>
 </testsuite>
