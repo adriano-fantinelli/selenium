@@ -1,0 +1,192 @@
+{
+  "uid" : "87f8764abeaa32be",
+  "name" : "loginSuccessfully",
+  "fullName" : "test.java.tests.LoginTest.loginSuccessfully",
+  "historyId" : "b0109f73bf6431542801c15ad775c6c8",
+  "time" : {
+    "start" : 1650146645939,
+    "stop" : 1650146651198,
+    "duration" : 5259
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1650146640129
+    },
+    "description" : "",
+    "status" : "unknown",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1650146640132,
+      "stop" : 1650146645730,
+      "duration" : 5598
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1650146668618
+    },
+    "description" : "",
+    "status" : "unknown",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1650146668618,
+      "stop" : 1650146668740,
+      "duration" : 122
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.java.tests.LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "test.java.tests.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginSuccessfully"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test"
+  }, {
+    "name" : "suite",
+    "value" : "Login"
+  }, {
+    "name" : "subSuite",
+    "value" : "test.java.tests.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az200-169"
+  }, {
+    "name" : "thread",
+    "value" : "2376@fv-az200-169.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Login Successfully"
+  }, {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "34c430188143f580",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1649686099042,
+        "stop" : 1649686099049,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "a02594dbf438d6a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649627476548,
+        "stop" : 1649627487103,
+        "duration" : 10555
+      }
+    }, {
+      "uid" : "6a14b2c408f30cc1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649626252911,
+        "stop" : 1649626259589,
+        "duration" : 6678
+      }
+    }, {
+      "uid" : "7432e553a390f47",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1649626220357,
+        "stop" : 1649626220365,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "4736b1eca80828a4",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1649207541858,
+        "stop" : 1649207541859,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "76b6e4542e9131c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649206682056,
+        "stop" : 1649206687923,
+        "duration" : 5867
+      }
+    }, {
+      "uid" : "61aa88ad3c1eef48",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649206188610,
+        "stop" : 1649206198083,
+        "duration" : 9473
+      }
+    }, {
+      "uid" : "eb0bb609bbdbd06b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649205724406,
+        "stop" : 1649205733942,
+        "duration" : 9536
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "87f8764abeaa32be.json",
+  "parameterValues" : [ ]
+}

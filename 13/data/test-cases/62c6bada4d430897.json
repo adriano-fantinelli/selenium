@@ -1,0 +1,201 @@
+{
+  "uid" : "62c6bada4d430897",
+  "name" : "loginWithInvalidData",
+  "fullName" : "test.java.tests.LoginTest.loginWithInvalidData",
+  "historyId" : "50bad5f5674b002bd6396b3cbd6f5f1f",
+  "time" : {
+    "start" : 1650146666458,
+    "stop" : 1650146668615,
+    "duration" : 2157
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1650146640129
+    },
+    "description" : "",
+    "status" : "unknown",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1650146640132,
+      "stop" : 1650146645730,
+      "duration" : 5598
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1650146668618
+    },
+    "description" : "",
+    "status" : "unknown",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1650146668618,
+      "stop" : 1650146668740,
+      "duration" : 122
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.java.tests.LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "test.java.tests.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginWithInvalidData"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test"
+  }, {
+    "name" : "suite",
+    "value" : "Login"
+  }, {
+    "name" : "subSuite",
+    "value" : "test.java.tests.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az200-169"
+  }, {
+    "name" : "thread",
+    "value" : "2376@fv-az200-169.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Login with invalid data"
+  }, {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : ""
+  }, {
+    "name" : "arg1",
+    "value" : ""
+  }, {
+    "name" : "arg2",
+    "value" : "An email address required."
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "24a225b19fec3766",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1649686099161,
+        "stop" : 1649686099162,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "6312ff8c77c605ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649627510632,
+        "stop" : 1649627519294,
+        "duration" : 8662
+      }
+    }, {
+      "uid" : "4465a9246acb2b37",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649626274953,
+        "stop" : 1649626277448,
+        "duration" : 2495
+      }
+    }, {
+      "uid" : "419dc84ca1a0a879",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1649626220402,
+        "stop" : 1649626220402,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c7caf99c4e7c35b0",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1649207541889,
+        "stop" : 1649207541889,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ea3402bc8e45ebe9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649206703010,
+        "stop" : 1649206706865,
+        "duration" : 3855
+      }
+    }, {
+      "uid" : "c0a76da94d20e47d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649206226184,
+        "stop" : 1649206230331,
+        "duration" : 4147
+      }
+    }, {
+      "uid" : "1f8a127a37fc8742",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649205763159,
+        "stop" : 1649205766747,
+        "duration" : 3588
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "62c6bada4d430897.json",
+  "parameterValues" : [ "", "", "An email address required." ]
+}
