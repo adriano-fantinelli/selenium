@@ -1,0 +1,201 @@
+{
+  "uid" : "5f56993c9c9f1df7",
+  "name" : "loginWithInvalidData",
+  "fullName" : "test.java.tests.LoginTest.loginWithInvalidData",
+  "historyId" : "c41f3665a4b21febd6ff692b4b90451d",
+  "time" : {
+    "start" : 1650146993035,
+    "stop" : 1650146996142,
+    "duration" : 3107
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1650146975977
+    },
+    "description" : "",
+    "status" : "unknown",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1650146975978,
+      "stop" : 1650146981039,
+      "duration" : 5061
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1650147001140
+    },
+    "description" : "",
+    "status" : "unknown",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1650147001140,
+      "stop" : 1650147001210,
+      "duration" : 70
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.java.tests.LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "test.java.tests.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginWithInvalidData"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test"
+  }, {
+    "name" : "suite",
+    "value" : "Login"
+  }, {
+    "name" : "subSuite",
+    "value" : "test.java.tests.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az39-574"
+  }, {
+    "name" : "thread",
+    "value" : "2459@fv-az39-574.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Login with invalid data"
+  }, {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "novoemailteste@gmail.com"
+  }, {
+    "name" : "arg1",
+    "value" : ""
+  }, {
+    "name" : "arg2",
+    "value" : "Password is required."
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "926b8fdd5f78c81e",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1649686099132,
+        "stop" : 1649686099133,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "2374de891680576",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649627503164,
+        "stop" : 1649627506408,
+        "duration" : 3244
+      }
+    }, {
+      "uid" : "6c0a429d24a2799b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649626268625,
+        "stop" : 1649626271574,
+        "duration" : 2949
+      }
+    }, {
+      "uid" : "d3b7ffc23a502563",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1649626220385,
+        "stop" : 1649626220385,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "217c541aa88e3e64",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1649207541880,
+        "stop" : 1649207541880,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "80f948fc6615c40d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649206698052,
+        "stop" : 1649206700167,
+        "duration" : 2115
+      }
+    }, {
+      "uid" : "e1a5f3383a48ca9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649206217665,
+        "stop" : 1649206222045,
+        "duration" : 4380
+      }
+    }, {
+      "uid" : "b9ac23bd201230c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649205753502,
+        "stop" : 1649205756311,
+        "duration" : 2809
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5f56993c9c9f1df7.json",
+  "parameterValues" : [ "novoemailteste@gmail.com", "", "Password is required." ]
+}

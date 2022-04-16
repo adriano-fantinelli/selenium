@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://adriano-fantinelli.github.io/selenium-java-automation",
+  "buildOrder" : 14,
+  "buildName" : "GitHub Actions Run #2178071173",
+  "buildUrl" : "https://github.com/adriano-fantinelli/selenium-java-automation/actions/runs/2178071173",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://adriano-fantinelli.github.io/selenium-java-automation/14/"
+} ]
