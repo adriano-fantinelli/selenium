@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Apr 16 22:29:25 GMT 2022","Sat Apr 16 22:29:31 GMT 2022","6045","test","Login","test.java.tests.LoginTest","test.java.tests.LoginTest","loginWithInvalidData","loginWithInvalidData",""
+"passed","Sat Apr 16 22:29:45 GMT 2022","Sat Apr 16 22:29:51 GMT 2022","6187","test","Login","test.java.tests.LoginTest","test.java.tests.LoginTest","loginWithInvalidData","loginWithInvalidData",""
+"passed","Sat Apr 16 22:29:39 GMT 2022","Sat Apr 16 22:29:45 GMT 2022","5908","test","Login","test.java.tests.LoginTest","test.java.tests.LoginTest","loginWithInvalidData","loginWithInvalidData",""
+"passed","Sat Apr 16 22:29:31 GMT 2022","Sat Apr 16 22:29:39 GMT 2022","8285","test","Login","test.java.tests.LoginTest","test.java.tests.LoginTest","loginWithInvalidData","loginWithInvalidData",""
+"passed","Sat Apr 16 22:29:51 GMT 2022","Sat Apr 16 22:29:54 GMT 2022","2734","test","Login","test.java.tests.LoginTest","test.java.tests.LoginTest","loginWithInvalidData","loginWithInvalidData",""
+"passed","Sat Apr 16 22:29:54 GMT 2022","Sat Apr 16 22:29:58 GMT 2022","3964","test","Login","test.java.tests.LoginTest","test.java.tests.LoginTest","loginWithInvalidData","loginWithInvalidData",""
+"passed","Sat Apr 16 22:29:12 GMT 2022","Sat Apr 16 22:29:25 GMT 2022","12735","test","Login","test.java.tests.LoginTest","test.java.tests.LoginTest","loginSuccessfully","loginSuccessfully",""

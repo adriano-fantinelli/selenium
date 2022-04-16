@@ -1,0 +1,137 @@
+{
+  "uid" : "daa6ee220200922",
+  "name" : "loginWithInvalidData",
+  "fullName" : "test.java.tests.LoginTest.loginWithInvalidData",
+  "historyId" : "e0c2404b4cc93181fbdad9ff13383331",
+  "time" : {
+    "start" : 1650148165108,
+    "stop" : 1650148171153,
+    "duration" : 6045
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1650148135247
+    },
+    "description" : "",
+    "status" : "unknown",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1650148135248,
+      "stop" : 1650148152075,
+      "duration" : 16827
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1650148198254
+    },
+    "description" : "",
+    "status" : "unknown",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1650148198254,
+      "stop" : 1650148198374,
+      "duration" : 120
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.java.tests.LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "test.java.tests.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginWithInvalidData"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test"
+  }, {
+    "name" : "suite",
+    "value" : "Login"
+  }, {
+    "name" : "subSuite",
+    "value" : "test.java.tests.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az198-122"
+  }, {
+    "name" : "thread",
+    "value" : "2336@fv-az198-122.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Login with invalid data"
+  }, {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "invalidEmail@gmail.com"
+  }, {
+    "name" : "arg1",
+    "value" : "teste123"
+  }, {
+    "name" : "arg2",
+    "value" : "Authentication failed."
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "daa6ee220200922.json",
+  "parameterValues" : [ "invalidEmail@gmail.com", "teste123", "Authentication failed." ]
+}
