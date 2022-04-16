@@ -17,7 +17,7 @@ public class Browser {
     public static WebDriver getCurrentDriver() {
         if (driver == null) {
             WebDriverManager.chromedriver().setup();
-            options.setExperimentalOption("prefs", chromePrefs);
+            ChromeOptions options = new ChromeOptions();
             options.addArguments("--no-sandbox");
             options.addArguments("--headless");
             options.addArguments("--disable-dev-shm-usage");
