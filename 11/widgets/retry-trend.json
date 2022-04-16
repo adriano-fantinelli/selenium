@@ -1,9 +1,0 @@
-[ {
-  "buildOrder" : 11,
-  "reportUrl" : "https://adriano-fantinelli.github.io/selenium-java-automation/11/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "run" : 28,
-    "retry" : 97
-  }
-} ]
