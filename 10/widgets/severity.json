@@ -1,0 +1,281 @@
+[ {
+  "uid" : "c48a1d6246fe496c",
+  "name" : "loginSuccessfully",
+  "time" : {
+    "start" : 1650145616744,
+    "stop" : 1650145616745,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "71e344f66c454718",
+  "name" : "loginWithInvalidData",
+  "time" : {
+    "start" : 1650145616754,
+    "stop" : 1650145616754,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "342bf05d304d1038",
+  "name" : "loginWithInvalidData",
+  "time" : {
+    "start" : 1649200284670,
+    "stop" : 1649200284685,
+    "duration" : 15
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7764a96dc6d66947",
+  "name" : "testLoginWithoutSuccessBlankEmail",
+  "time" : {
+    "start" : 1649196465291,
+    "stop" : 1649196471151,
+    "duration" : 5860
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bcd045a91d2ee777",
+  "name" : "testLoginWithoutSuccessBlankPassword",
+  "time" : {
+    "start" : 1649196471154,
+    "stop" : 1649196477397,
+    "duration" : 6243
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f4f918e17f81f122",
+  "name" : "setup",
+  "time" : {
+    "start" : 1617208786978,
+    "stop" : 1617208786982,
+    "duration" : 4
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b3af639cdce78da8",
+  "name" : "loginWithInvalidData",
+  "time" : {
+    "start" : 1649200284622,
+    "stop" : 1649200284638,
+    "duration" : 16
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5e2e45cda2758f62",
+  "name" : "testLoginWithoutSuccessIncorrectEmail",
+  "time" : {
+    "start" : 1649197495741,
+    "stop" : 1649197508055,
+    "duration" : 12314
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "704edb8d313e56d9",
+  "name" : "setup",
+  "time" : {
+    "start" : 1650145616671,
+    "stop" : 1650145616673,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e8e7a07baa28d316",
+  "name" : "loginWithInvalidData",
+  "time" : {
+    "start" : 1649200284530,
+    "stop" : 1649200284552,
+    "duration" : 22
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1ffa3875da874769",
+  "name" : "loginWithInvalidData",
+  "time" : {
+    "start" : 1650145616752,
+    "stop" : 1650145616752,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "c6698f3804ca285a",
+  "name" : "loginWithInvalidData",
+  "time" : {
+    "start" : 1649199661792,
+    "stop" : 1649199665048,
+    "duration" : 3256
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e964b0bdd5265e1a",
+  "name" : "loginSuccessfully",
+  "time" : {
+    "start" : 1649200284337,
+    "stop" : 1649200284421,
+    "duration" : 84
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "54edf5e3b6bf2cb1",
+  "name" : "loginWithInvalidData",
+  "time" : {
+    "start" : 1649197860117,
+    "stop" : 1649197868521,
+    "duration" : 8404
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "863917f88d1f9eb8",
+  "name" : "loginWithInvalidData",
+  "time" : {
+    "start" : 1649199658923,
+    "stop" : 1649199661788,
+    "duration" : 2865
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9b5d5efbcb0ba2e1",
+  "name" : "testLoginSuccessfully",
+  "time" : {
+    "start" : 1649196447079,
+    "stop" : 1649196465162,
+    "duration" : 18083
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9dff4cebe556929f",
+  "name" : "testMakeOrderSuccesfully",
+  "time" : {
+    "start" : 1617758113600,
+    "stop" : 1617758122377,
+    "duration" : 8777
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5ff60db4e9eb7f57",
+  "name" : "loginWithInvalidData",
+  "time" : {
+    "start" : 1650145616758,
+    "stop" : 1650145616758,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "63cc45279a62ac5e",
+  "name" : "loginWithInvalidData",
+  "time" : {
+    "start" : 1649199654385,
+    "stop" : 1649199658909,
+    "duration" : 4524
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6644602c851f6657",
+  "name" : "testLoginWithoutSuccessIncorrectPassword",
+  "time" : {
+    "start" : 1649196481558,
+    "stop" : 1649196484014,
+    "duration" : 2456
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "74ca3c22fc49940d",
+  "name" : "loginWithInvalidData",
+  "time" : {
+    "start" : 1650145616756,
+    "stop" : 1650145616756,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "322cb8a3a4c99e84",
+  "name" : "loginWithInvalidData",
+  "time" : {
+    "start" : 1650145616759,
+    "stop" : 1650145616760,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "aa693054152dda2f",
+  "name" : "loginWithInvalidData",
+  "time" : {
+    "start" : 1650145616749,
+    "stop" : 1650145616749,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "b222fc5aabe9aab3",
+  "name" : "loginWithInvalidData",
+  "time" : {
+    "start" : 1649200284638,
+    "stop" : 1649200284669,
+    "duration" : 31
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2b9ddbcbbbdecec",
+  "name" : "loginWithInvalidData",
+  "time" : {
+    "start" : 1649200284606,
+    "stop" : 1649200284622,
+    "duration" : 16
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "60b5080e23a9794f",
+  "name" : "testLoginWithoutSuccessIncorrectEmail",
+  "time" : {
+    "start" : 1649196477425,
+    "stop" : 1649196481550,
+    "duration" : 4125
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4a5f6b98538b4e0b",
+  "name" : "loginWithInvalidData",
+  "time" : {
+    "start" : 1649197840808,
+    "stop" : 1649197849088,
+    "duration" : 8280
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b084db64200638fc",
+  "name" : "loginWithInvalidData",
+  "time" : {
+    "start" : 1649200284584,
+    "stop" : 1649200284606,
+    "duration" : 22
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
