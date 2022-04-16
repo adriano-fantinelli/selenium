@@ -25,4 +25,4 @@ Test automation project using Selenium and WebDriverManager in Java for Front-en
 ```
 allure serve allure-results
 ```
-- Report on Github Pages: https://adriano-fantinelli.github.io/rest-assured-java-automation/
+- Report on Github Pages: https://adriano-fantinelli.github.io/selenium-java-automation/
