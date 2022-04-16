@@ -1,0 +1,198 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "unknown error: cannot determine loading status\nfrom disconnected: received Inspector.detached event\n  (Session info: chrome=89.0.4389.90)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'SL-002625', ip: '10.0.63.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\ADRIAN~1.FAN\\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:53319}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b27c70efcddf076d55371772d70845e0",
+      "children" : [ {
+        "name" : "setup",
+        "uid" : "81b9b72b456e9077",
+        "parentUid" : "7fab0d4fd9ef8b8acea04ce98c20dbe4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1617208786978,
+          "stop" : 1617208786982,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7fab0d4fd9ef8b8acea04ce98c20dbe4"
+    }, {
+      "name" : "element not interactable\n  (Session info: chrome=89.0.4389.114)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-5LSHH6H', ip: '192.168.15.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\Pichau\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50295}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 333cceeb353a7ac63005cfe32a951fd8",
+      "children" : [ {
+        "name" : "testMakeOrderSuccesfully",
+        "uid" : "b2f967e2f74c80b8",
+        "parentUid" : "dd7c6ab231952f8ea7f8d8fd5f44a330",
+        "status" : "broken",
+        "time" : {
+          "start" : 1617758113600,
+          "stop" : 1617758122377,
+          "duration" : 8777
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dd7c6ab231952f8ea7f8d8fd5f44a330"
+    }, {
+      "name" : "Keys to send should be a not null CharSequence",
+      "children" : [ {
+        "name" : "loginWithInvalidData",
+        "uid" : "448ea0e05f432f51",
+        "parentUid" : "8863195d2002b04b9f89a669982dae2c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649199654385,
+          "stop" : 1649199658909,
+          "duration" : 4524
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "novoemailteste@gmail.com", "null", "Password is required." ]
+      }, {
+        "name" : "loginWithInvalidData",
+        "uid" : "12dc182f949ad3b1",
+        "parentUid" : "8863195d2002b04b9f89a669982dae2c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649199658923,
+          "stop" : 1649199661788,
+          "duration" : 2865
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "null", "teste123", "An email address required." ]
+      }, {
+        "name" : "loginWithInvalidData",
+        "uid" : "394215ad5e338015",
+        "parentUid" : "8863195d2002b04b9f89a669982dae2c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649199661792,
+          "stop" : 1649199665048,
+          "duration" : 3256
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "null", "null", "An email address required." ]
+      } ],
+      "uid" : "8863195d2002b04b9f89a669982dae2c"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".login\"}\n  (Session info: chrome=100.0.4896.60)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-K9FM7UL', ip: '192.168.15.14', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.60, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\\Users\\adria\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53788}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 59fd61649084b31b38acfe367f278169\n*** Element info: {Using=class name, value=login}",
+      "children" : [ {
+        "name" : "loginSuccessfully",
+        "uid" : "b2880c0c1323c41f",
+        "parentUid" : "bcb2d61079d162724ef82d0a677410be",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649200284337,
+          "stop" : 1649200284421,
+          "duration" : 84
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginWithInvalidData",
+        "uid" : "7f208e3feb0c5b31",
+        "parentUid" : "bcb2d61079d162724ef82d0a677410be",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649200284530,
+          "stop" : 1649200284552,
+          "duration" : 22
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "invalidEmail@gmail.com", "teste123", "Authentication failed." ]
+      }, {
+        "name" : "loginWithInvalidData",
+        "uid" : "10f799c8ae4b285f",
+        "parentUid" : "bcb2d61079d162724ef82d0a677410be",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649200284584,
+          "stop" : 1649200284606,
+          "duration" : 22
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "novoemailteste@gmail.com", "invalidPassword", "Authentication failed." ]
+      }, {
+        "name" : "loginWithInvalidData",
+        "uid" : "30af9b05d16d322",
+        "parentUid" : "bcb2d61079d162724ef82d0a677410be",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649200284606,
+          "stop" : 1649200284622,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "invalidEmail@gmail.com", "invalidPassword", "Authentication failed." ]
+      }, {
+        "name" : "loginWithInvalidData",
+        "uid" : "a47eaeb0f0a25ea4",
+        "parentUid" : "bcb2d61079d162724ef82d0a677410be",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649200284622,
+          "stop" : 1649200284638,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "novoemailteste@gmail.com", "", "Password is required." ]
+      }, {
+        "name" : "loginWithInvalidData",
+        "uid" : "5515b61bc3af7f61",
+        "parentUid" : "bcb2d61079d162724ef82d0a677410be",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649200284638,
+          "stop" : 1649200284669,
+          "duration" : 31
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "", "teste123", "An email address required." ]
+      }, {
+        "name" : "loginWithInvalidData",
+        "uid" : "62367928e710cb1f",
+        "parentUid" : "bcb2d61079d162724ef82d0a677410be",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649200284670,
+          "stop" : 1649200284685,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "", "", "An email address required." ]
+      } ],
+      "uid" : "bcb2d61079d162724ef82d0a677410be"
+    }, {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az38-316', ip: '10.1.0.201', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-1021-azure', java.version: '17.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55f4fcdcdad3 <unknown>\n#1 0x55f4fcb2d568 <unknown>\n#2 0x55f4fcb50b37 <unknown>\n#3 0x55f4fcb4c23a <unknown>\n#4 0x55f4fcb872ba <unknown>\n#5 0x55f4fcb814e3 <unknown>\n#6 0x55f4fcb56d1a <unknown>\n#7 0x55f4fcb57e75 <unknown>\n#8 0x55f4fcdfbefd <unknown>\n#9 0x55f4fce1519b <unknown>\n#10 0x55f4fcdfdc65 <unknown>\n#11 0x55f4fce15ec8 <unknown>\n#12 0x55f4fcdf1360 <unknown>\n#13 0x55f4fce31a68 <unknown>\n#14 0x55f4fce31be8 <unknown>\n#15 0x55f4fce4b7fd <unknown>\n#16 0x7f62f2762609 <unknown>\n",
+      "children" : [ {
+        "name" : "setup",
+        "uid" : "387bf118965de4f5",
+        "parentUid" : "bd16fe18fa9e334a6e73cc8e1e3daf72",
+        "status" : "broken",
+        "time" : {
+          "start" : 1650145922160,
+          "stop" : 1650145922161,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bd16fe18fa9e334a6e73cc8e1e3daf72"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

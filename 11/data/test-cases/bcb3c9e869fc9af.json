@@ -1,0 +1,107 @@
+{
+  "uid" : "bcb3c9e869fc9af",
+  "name" : "loginWithInvalidData",
+  "fullName" : "tests.LoginTest.loginWithInvalidData",
+  "historyId" : "ec7e9a07bee0b44c6a7a4a40ff35a290",
+  "time" : {
+    "start" : 1649199950783,
+    "stop" : 1649199958206,
+    "duration" : 7423
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1649199922847,
+      "stop" : 1649199930367,
+      "duration" : 7520
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1649199975173,
+      "stop" : 1649199975864,
+      "duration" : 691
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginWithInvalidData"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SeleniumJavaAutomation"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-K9FM7UL"
+  }, {
+    "name" : "thread",
+    "value" : "28856@DESKTOP-K9FM7UL.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Login with invalid data"
+  }, {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "novoemailteste@gmail.com"
+  }, {
+    "name" : "arg1",
+    "value" : "invalidPassword"
+  }, {
+    "name" : "arg2",
+    "value" : "Authentication failed."
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bcb3c9e869fc9af.json",
+  "parameterValues" : [ "novoemailteste@gmail.com", "invalidPassword", "Authentication failed." ]
+}

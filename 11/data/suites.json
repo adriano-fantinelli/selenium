@@ -1,0 +1,409 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "test",
+    "children" : [ {
+      "name" : "test1",
+      "children" : [ {
+        "name" : "tests.LoginTest",
+        "children" : [ {
+          "name" : "setup",
+          "uid" : "81b9b72b456e9077",
+          "parentUid" : "ae4cfab47f8d1c5138d9741ab53b2f27",
+          "status" : "broken",
+          "time" : {
+            "start" : 1617208786978,
+            "stop" : 1617208786982,
+            "duration" : 4
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ae4cfab47f8d1c5138d9741ab53b2f27"
+      } ],
+      "uid" : "631d257a8e846bd3fa983c9e671c2c79"
+    }, {
+      "name" : "Login",
+      "children" : [ {
+        "name" : "tests.LoginTest",
+        "children" : [ {
+          "name" : "testLoginSuccessfully",
+          "uid" : "e39699a2194cb392",
+          "parentUid" : "803fd7c1b7b396557cf1725fb43d8518",
+          "status" : "passed",
+          "time" : {
+            "start" : 1649196447079,
+            "stop" : 1649196465162,
+            "duration" : 18083
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testLoginWithoutSuccessBlankEmail",
+          "uid" : "94cb850c46ee77b2",
+          "parentUid" : "803fd7c1b7b396557cf1725fb43d8518",
+          "status" : "passed",
+          "time" : {
+            "start" : 1649196465291,
+            "stop" : 1649196471151,
+            "duration" : 5860
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testLoginWithoutSuccessBlankPassword",
+          "uid" : "b8339bfb3db83265",
+          "parentUid" : "803fd7c1b7b396557cf1725fb43d8518",
+          "status" : "passed",
+          "time" : {
+            "start" : 1649196471154,
+            "stop" : 1649196477397,
+            "duration" : 6243
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testLoginWithoutSuccessIncorrectEmail",
+          "uid" : "1bf22b4019bf3c3c",
+          "parentUid" : "803fd7c1b7b396557cf1725fb43d8518",
+          "status" : "passed",
+          "time" : {
+            "start" : 1649196477425,
+            "stop" : 1649196481550,
+            "duration" : 4125
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testLoginWithoutSuccessIncorrectPassword",
+          "uid" : "68d0b7f05ea10e4",
+          "parentUid" : "803fd7c1b7b396557cf1725fb43d8518",
+          "status" : "passed",
+          "time" : {
+            "start" : 1649196481558,
+            "stop" : 1649196484014,
+            "duration" : 2456
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "loginSuccessfully",
+          "uid" : "b2880c0c1323c41f",
+          "parentUid" : "803fd7c1b7b396557cf1725fb43d8518",
+          "status" : "broken",
+          "time" : {
+            "start" : 1649200284337,
+            "stop" : 1649200284421,
+            "duration" : 84
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "loginWithInvalidData",
+          "uid" : "7f208e3feb0c5b31",
+          "parentUid" : "803fd7c1b7b396557cf1725fb43d8518",
+          "status" : "broken",
+          "time" : {
+            "start" : 1649200284530,
+            "stop" : 1649200284552,
+            "duration" : 22
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "invalidEmail@gmail.com", "teste123", "Authentication failed." ]
+        }, {
+          "name" : "loginWithInvalidData",
+          "uid" : "10f799c8ae4b285f",
+          "parentUid" : "803fd7c1b7b396557cf1725fb43d8518",
+          "status" : "broken",
+          "time" : {
+            "start" : 1649200284584,
+            "stop" : 1649200284606,
+            "duration" : 22
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "novoemailteste@gmail.com", "invalidPassword", "Authentication failed." ]
+        }, {
+          "name" : "loginWithInvalidData",
+          "uid" : "30af9b05d16d322",
+          "parentUid" : "803fd7c1b7b396557cf1725fb43d8518",
+          "status" : "broken",
+          "time" : {
+            "start" : 1649200284606,
+            "stop" : 1649200284622,
+            "duration" : 16
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "invalidEmail@gmail.com", "invalidPassword", "Authentication failed." ]
+        }, {
+          "name" : "loginWithInvalidData",
+          "uid" : "a47eaeb0f0a25ea4",
+          "parentUid" : "803fd7c1b7b396557cf1725fb43d8518",
+          "status" : "broken",
+          "time" : {
+            "start" : 1649200284622,
+            "stop" : 1649200284638,
+            "duration" : 16
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "novoemailteste@gmail.com", "", "Password is required." ]
+        }, {
+          "name" : "loginWithInvalidData",
+          "uid" : "5515b61bc3af7f61",
+          "parentUid" : "803fd7c1b7b396557cf1725fb43d8518",
+          "status" : "broken",
+          "time" : {
+            "start" : 1649200284638,
+            "stop" : 1649200284669,
+            "duration" : 31
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "", "teste123", "An email address required." ]
+        }, {
+          "name" : "loginWithInvalidData",
+          "uid" : "62367928e710cb1f",
+          "parentUid" : "803fd7c1b7b396557cf1725fb43d8518",
+          "status" : "broken",
+          "time" : {
+            "start" : 1649200284670,
+            "stop" : 1649200284685,
+            "duration" : 15
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "", "", "An email address required." ]
+        } ],
+        "uid" : "803fd7c1b7b396557cf1725fb43d8518"
+      }, {
+        "name" : "test.java.tests.LoginTest",
+        "children" : [ {
+          "name" : "setup",
+          "uid" : "387bf118965de4f5",
+          "parentUid" : "8da8320c616aeedc556b881e55e85da4",
+          "status" : "broken",
+          "time" : {
+            "start" : 1650145922160,
+            "stop" : 1650145922161,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "loginSuccessfully",
+          "uid" : "84db7c924b04bb09",
+          "parentUid" : "8da8320c616aeedc556b881e55e85da4",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1650145922257,
+            "stop" : 1650145922263,
+            "duration" : 6
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "loginWithInvalidData",
+          "uid" : "6590d2b79c365f55",
+          "parentUid" : "8da8320c616aeedc556b881e55e85da4",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1650145922268,
+            "stop" : 1650145922268,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "invalidEmail@gmail.com", "teste123", "Authentication failed." ]
+        }, {
+          "name" : "loginWithInvalidData",
+          "uid" : "aaa1395ddb2b5a71",
+          "parentUid" : "8da8320c616aeedc556b881e55e85da4",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1650145922272,
+            "stop" : 1650145922272,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "novoemailteste@gmail.com", "invalidPassword", "Authentication failed." ]
+        }, {
+          "name" : "loginWithInvalidData",
+          "uid" : "3b956266b8117ccb",
+          "parentUid" : "8da8320c616aeedc556b881e55e85da4",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1650145922275,
+            "stop" : 1650145922275,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "invalidEmail@gmail.com", "invalidPassword", "Authentication failed." ]
+        }, {
+          "name" : "loginWithInvalidData",
+          "uid" : "86095bc957de80eb",
+          "parentUid" : "8da8320c616aeedc556b881e55e85da4",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1650145922279,
+            "stop" : 1650145922280,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "novoemailteste@gmail.com", "", "Password is required." ]
+        }, {
+          "name" : "loginWithInvalidData",
+          "uid" : "3f657d19ee2849de",
+          "parentUid" : "8da8320c616aeedc556b881e55e85da4",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1650145922285,
+            "stop" : 1650145922285,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "", "teste123", "An email address required." ]
+        }, {
+          "name" : "loginWithInvalidData",
+          "uid" : "2f936840f6cc2cfc",
+          "parentUid" : "8da8320c616aeedc556b881e55e85da4",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1650145922287,
+            "stop" : 1650145922287,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "", "", "An email address required." ]
+        } ],
+        "uid" : "8da8320c616aeedc556b881e55e85da4"
+      } ],
+      "uid" : "5f1d82883b9476811ac6f63268d98fb1"
+    } ],
+    "uid" : "ff2b04dbb9c449a4d40723f51d841925"
+  }, {
+    "name" : "Default Suite",
+    "children" : [ {
+      "name" : "SeleniumJavaAutomation",
+      "children" : [ {
+        "name" : "tests.OrderTest",
+        "children" : [ {
+          "name" : "testMakeOrderSuccesfully",
+          "uid" : "b2f967e2f74c80b8",
+          "parentUid" : "e51ea46a512340ed3ee608eb1642d851",
+          "status" : "broken",
+          "time" : {
+            "start" : 1617758113600,
+            "stop" : 1617758122377,
+            "duration" : 8777
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e51ea46a512340ed3ee608eb1642d851"
+      }, {
+        "name" : "tests.LoginTest",
+        "children" : [ {
+          "name" : "testLoginWithoutSuccessIncorrectEmail",
+          "uid" : "ce07c3d5eab8d87e",
+          "parentUid" : "5892a029fa4f2ca6e7dd28ce496d69df",
+          "status" : "passed",
+          "time" : {
+            "start" : 1649197495741,
+            "stop" : 1649197508055,
+            "duration" : 12314
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "emailinvalido@gmail.com", "teste123", "Authentication failed." ]
+        }, {
+          "name" : "loginWithInvalidData",
+          "uid" : "9d3bd1a3bcbf0217",
+          "parentUid" : "5892a029fa4f2ca6e7dd28ce496d69df",
+          "status" : "passed",
+          "time" : {
+            "start" : 1649197840808,
+            "stop" : 1649197849088,
+            "duration" : 8280
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "emailinvalido@gmail.com", "teste123", "Authentication failed." ]
+        }, {
+          "name" : "loginWithInvalidData",
+          "uid" : "30b00d69c6657a62",
+          "parentUid" : "5892a029fa4f2ca6e7dd28ce496d69df",
+          "status" : "passed",
+          "time" : {
+            "start" : 1649197860117,
+            "stop" : 1649197868521,
+            "duration" : 8404
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "emailinvalido@gmail.com", "invalidPassword", "Authentication failed." ]
+        }, {
+          "name" : "loginWithInvalidData",
+          "uid" : "448ea0e05f432f51",
+          "parentUid" : "5892a029fa4f2ca6e7dd28ce496d69df",
+          "status" : "broken",
+          "time" : {
+            "start" : 1649199654385,
+            "stop" : 1649199658909,
+            "duration" : 4524
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "novoemailteste@gmail.com", "null", "Password is required." ]
+        }, {
+          "name" : "loginWithInvalidData",
+          "uid" : "12dc182f949ad3b1",
+          "parentUid" : "5892a029fa4f2ca6e7dd28ce496d69df",
+          "status" : "broken",
+          "time" : {
+            "start" : 1649199658923,
+            "stop" : 1649199661788,
+            "duration" : 2865
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "null", "teste123", "An email address required." ]
+        }, {
+          "name" : "loginWithInvalidData",
+          "uid" : "394215ad5e338015",
+          "parentUid" : "5892a029fa4f2ca6e7dd28ce496d69df",
+          "status" : "broken",
+          "time" : {
+            "start" : 1649199661792,
+            "stop" : 1649199665048,
+            "duration" : 3256
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "null", "null", "An email address required." ]
+        } ],
+        "uid" : "5892a029fa4f2ca6e7dd28ce496d69df"
+      } ],
+      "uid" : "ae1bd80e11857817432a68785d899ab1"
+    } ],
+    "uid" : "8399274b4bb69ec8699907dd6ef7de4e"
+  } ],
+  "name" : "suites"
+}
