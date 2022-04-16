@@ -17,12 +17,13 @@ public class Browser {
     public static WebDriver getCurrentDriver() {
         if (driver == null) {
             WebDriverManager.chromedriver().setup();
-            driver = new ChromeDriver();
-            wait = new WebDriverWait(driver, 30);
-            ChromeOptions options = new ChromeOptions();
+            options.setExperimentalOption("prefs", chromePrefs);
             options.addArguments("--no-sandbox");
-            options.addArguments("--disable-dev-shm-usage");
             options.addArguments("--headless");
+            options.addArguments("--disable-dev-shm-usage");
+            options.addArguments("--window-size=1920x1080");
+            driver = new ChromeDriver(options);
+            wait = new WebDriverWait(driver, 30);
             maximizeBrowser();
             setPageLoadTimeout();
         }
