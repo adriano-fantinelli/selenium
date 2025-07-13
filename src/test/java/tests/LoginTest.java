@@ -9,6 +9,7 @@ import test.java.pageObject.HomePage;
 import test.java.pageObject.LoginPage;
 import test.java.pageObject.MyAccountPage;
 import test.java.utils.Browser;
+import test.java.utils.Utils;
 
 import static org.testng.Assert.assertEquals;
 import static test.java.controller.LoginController.*;

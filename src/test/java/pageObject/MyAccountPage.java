@@ -12,6 +12,9 @@ public class MyAccountPage extends BasePage {
     @FindBy(className = "logout")
     public WebElement logout;
 
+    @FindBy(linkText = "WOMEN")
+    public WebElement womenSection;
+
     public String txtTitlePage() {
         return titlePage.getText().trim();
     }
@@ -20,12 +23,9 @@ public class MyAccountPage extends BasePage {
         logout.click();
     }
 
-    public WebElement tShirts() {
-        return driver.findElement(By.linkText("T-SHIRTS"));
+    public void clickWomensSection() {
+        womenSection.click();
     }
 
-    public void clickTShirts() {
-        tShirts().click();
-    }
 
 }

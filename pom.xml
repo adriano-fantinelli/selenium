@@ -42,7 +42,7 @@
         <selenium-java.version>3.141.59</selenium-java.version>
         <lombok.version>1.18.20</lombok.version>
         <allure-testng.version>2.10.0</allure-testng.version>
-        <webdrivermanager.version>4.3.1</webdrivermanager.version>
+        <webdrivermanager.version>6.1.0</webdrivermanager.version>
         <allure-maven.version>2.8</allure-maven.version>
         <allure-maven-report.version>2.3.1</allure-maven-report.version>
     </properties>
